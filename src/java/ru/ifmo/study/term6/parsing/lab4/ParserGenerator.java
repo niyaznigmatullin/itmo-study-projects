@@ -7,4 +7,5 @@ package ru.ifmo.study.term6.parsing.lab4;
  * Time: 7:06 PM
  */
 public class ParserGenerator {
+
 }
