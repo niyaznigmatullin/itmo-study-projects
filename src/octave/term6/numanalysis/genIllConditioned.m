@@ -1,4 +1,4 @@
-function [ret] = getIllConditioned(n)
+function [ret] = genIllConditioned(n)
     ret = zeros(n, n);
     for i = 1 : n
         for j = 1 : n

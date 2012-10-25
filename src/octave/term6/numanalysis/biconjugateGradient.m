@@ -1,4 +1,4 @@
-function [x, countIterations] = biconjugateGradient(A, b, eps)
+function [x, xs, norms] = biconjugateGradient(A, b, eps, maxIterations)
     n = size(A, 1);
     x1 = zeros(n, 1);
     At = A';
@@ -7,11 +7,12 @@ function [x, countIterations] = biconjugateGradient(A, b, eps)
     x2 = x1;
     p1 = r1;
     p2 = r1;
-    countIterations = 0;
     n1 = [];
     n2 = [];
-    while (norm(r1) > eps && norm(r2) > eps)
-        countIterations = countIterations + 1;
+    xs = [x1];
+    norms = [];
+    while (norm(r1) > eps && norm(r2) > eps && size(xs) < maxIterations)
+        norms = [norms; min(norm(r1), norm(r2))];
         alpha = r2' * r1 / (p2' * A * p1); 
         x1 = x1 + alpha * p1;
         x2 = x2 + alpha * p2;
@@ -22,14 +23,16 @@ function [x, countIterations] = biconjugateGradient(A, b, eps)
         p2 = nr2 + beta * p2;
         r1 = nr1;
         r2 = nr2;
-        n1 = [n1 norm(r1)];
-        n2 = [n2 norm(r2)];
+        if (norm(r1) < norm(r2))
+            xs = [xs; x1];
+        else
+            xs = [xs; x2];
+        end;
+        n1 = [n1; norm(r1)];
+        n2 = [n2; norm(r2)];
+        size(n1)
+        x1
     end;
-    z = [1:1:countIterations];
-    plot(z, n1, "1");
-    if (norm(r1) < norm(r2))
-        x = x1;
-    else
-        x = x2;
-    end;
+    norms = [norms; norms(:, end)];
+    x = xs(:,end);
 end

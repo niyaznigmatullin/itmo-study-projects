@@ -1,0 +1,22 @@
+function myTest(A, b, maxIterations)
+    [x1, xs1, norms1] = sor(A, b, 0.5, 1e-5, maxIterations);
+    [x2, xs2, norms2] = sor(A, b, 1, 1e-5, maxIterations);
+    [x3, xs3, norms3] = sor(A, b, 1.5, 1e-5, maxIterations);
+    [x4, xs4, norms4] = gaussSeidel(A, b, 1e-5, maxIterations);
+    [x5, xs5, norms5] = simpleIteration(A, b, 1e-5, maxIterations);
+    [x6, xs6, norms6] = biconjugateGradient(A, b, 1e-5, maxIterations);
+    %figure; hold on;
+    plot(1:size(norms1), norms1, 'r');
+    pause;
+    plot(1:size(norms2), norms2, 'g');
+    pause;
+    plot(1:size(norms3), norms3, 'b');
+    pause;
+    plot(1:size(norms4), norms4, 'm');
+    pause;
+    plot(1:size(norms5), norms5, 'c');
+    pause;
+    plot(1:size(norms6), norms6, 'k');
+    pause;
+    %hold off;
+end;
