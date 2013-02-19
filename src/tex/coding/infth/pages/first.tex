@@ -1,0 +1,75 @@
+\section{Энтропия марковского источника и код Хаффмена}
+Для марковского источника с заданной матрицей $P$ переходных вероятностей найти: $H(X)$,
+$H(X|X^{\infty})$,
+$H_2(X)$,
+$H_n(X)$.
+\renewcommand{\arraystretch}{2.0}
+\begin{equation}
+P=
+\left[\begin{array}{ccc}
+\frac13 & 0 & \frac23 \\
+\frac14 & \frac 12 & \frac14 \\
+0 & \frac12 & \frac12
+\end{array}\right]
+\end{equation}
+
+Построить коды Хаффмена для ансамблей $X$, $X^2$.
+
+\subsection{Вычисление энтропии}
+Заметим, что заданная цепь Маркова эргодична, так как $P^k$ для $k \ge 2$ содержит только положительные элементы, поэтому существует предел:
+\begin{equation}
+    \mathbf{p} = \lim\limits_{n \to \infty} \mathbf{p_0}P^n
+\end{equation}
+такой что,
+\begin{equation}
+    \mathbf{p} = \mathbf{p} P
+\end{equation}
+
+Найдем $\mathbf{p}$. Зная что $\mathbf{p} = (p_1, p_2, p_3)$ и $\sum\limits_{i=1}^3{p_i} = 1$, составим систему уравнений:
+\begin{equation}
+\left\{
+\begin{aligned}
+\frac13p_1+\frac14p_2=p_1 \\
+\frac12p_2+\frac12p_3=p_2 \\
+\frac23p_1+\frac14p_2+\frac12p_3=p_3 \\
+p_1+p_2+p_3=1
+\end{aligned}
+\right.
+\end{equation}
+
+Решая систему, получаем:
+
+\begin{equation}
+    \mathbf{p} = \left(\frac3{19}, \frac8{19}, \frac8{19}\right)
+\end{equation}
+
+Вычисляем энтропию:
+\begin{equation}
+H(X)=\sum\limits_{i=1}^3{-p_i\log{p_i}}=-\frac{3}{19}\log\frac{3}{19}-2\frac{8}{19}\log\frac{8}{19}\approx 1.0199
+\end{equation}
+
+В заданной цепи Маркова $H(X|X^\infty) = H(X|X)$, вычислим:
+\begin{equation}
+    \begin{split}
+        &H(X|X^\infty)=H(X|X)=-\sum\limits_{i=1}^3\sum\limits_{j=1}^3{p(x_i, x_j)\log{p(x_j|x_i)}} \\
+        &H(X|X^\infty) \approx 0.8301
+    \end{split}
+\end{equation}
+
+Продолжим вычислением $H_2(X)$:
+\begin{equation}
+    \begin{split}
+        &H_2(X)=\frac{H(X^2)}2 = -\frac12 \sum\limits_{i=1}^3\sum\limits_{j=1}^3{p(x_i, x_j) \log{p(x_i, x_j)}} \\
+        &H_2(X) \approx 0.9250
+    \end{split}
+\end{equation}
+
+И вычислим $H_n(X)$:
+\begin{equation}
+    \begin{split}
+        &H_n(X)=H(X|X^n)+\frac1n(H(X)-H(X|X^s))=H(X|X)+\frac1n(H(X)-H(X|X)) \\
+        &H_n(X)=0.8301+\frac1n(1.0199-0.8301)=0.8301+\frac{0.1898}n
+    \end{split}
+\end{equation}
+
+\subsection{Построение кода Хаффмена}
