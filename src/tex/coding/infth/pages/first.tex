@@ -45,14 +45,14 @@ p_1+p_2+p_3=1
 
 Вычисляем энтропию:
 \begin{equation}
-H(X)=\sum\limits_{i=1}^3{-p_i\log{p_i}}=-\frac{3}{19}\log\frac{3}{19}-2\frac{8}{19}\log\frac{8}{19}\approx 1.0199
+H(X)=\sum\limits_{i=1}^3{-p_i\log{p_i}}=-\frac{3}{19}\log\frac{3}{19}-2\frac{8}{19}\log\frac{8}{19}\approx 1.4714
 \end{equation}
 
 В заданной цепи Маркова $H(X|X^\infty) = H(X|X)$, вычислим:
 \begin{equation}
     \begin{split}
         &H(X|X^\infty)=H(X|X)=-\sum\limits_{i=1}^3\sum\limits_{j=1}^3{p(x_i, x_j)\log{p(x_j|x_i)}} \\
-        &H(X|X^\infty) \approx 0.8301
+        &H(X|X^\infty) \approx 1.1976
     \end{split}
 \end{equation}
 
@@ -60,7 +60,7 @@ H(X)=\sum\limits_{i=1}^3{-p_i\log{p_i}}=-\frac{3}{19}\log\frac{3}{19}-2\frac{8}{
 \begin{equation}
     \begin{split}
         &H_2(X)=\frac{H(X^2)}2 = -\frac12 \sum\limits_{i=1}^3\sum\limits_{j=1}^3{p(x_i, x_j) \log{p(x_i, x_j)}} \\
-        &H_2(X) \approx 0.9250
+        &H_2(X) \approx 1.3345
     \end{split}
 \end{equation}
 
@@ -68,8 +68,91 @@ H(X)=\sum\limits_{i=1}^3{-p_i\log{p_i}}=-\frac{3}{19}\log\frac{3}{19}-2\frac{8}{
 \begin{equation}
     \begin{split}
         &H_n(X)=H(X|X^n)+\frac1n(H(X)-H(X|X^s))=H(X|X)+\frac1n(H(X)-H(X|X)) \\
-        &H_n(X)=0.8301+\frac1n(1.0199-0.8301)=0.8301+\frac{0.1898}n
+        &H_n(X)=1.1976+\frac1n(1.4714-1.1976)=1.1976+\frac{0.2738}n
     \end{split}
 \end{equation}
 
 \subsection{Построение кода Хаффмена}
+Обозначим алфавит буквами: $X={x,y,z}$. Построим сначала код Хаффмена над алфавитом $X$, зная $\mathbf{p} = \left(\frac3{19}, \frac8{19}, \frac8{19}\right)$.
+\begin{equation}
+\begin{tabular}{|c|c|c|}
+\hline
+x&00\\
+\hline
+y&01\\
+\hline
+z&1\\
+\hline
+\end{tabular}
+\end{equation}
+
+Средняя длина кодового слова в коде Хаффмена $2\frac3{19}+2\frac8{19}+\frac8{19} \approx 1.5789$. Этот результат больше энтропии $H(X) \approx 1.4714$
+
+Для того, чтобы построить код Хаффмена над алфавитом $X^2$, для начала посчитаем вероятности пар букв:
+
+\begin{equation}
+    \begin{tabular}{|c|c|c|c|}
+        \hline
+        &x&y&z\\
+        \hline
+        x&$\frac{1}{19}$&0&$\frac{2}{19}$\\
+        \hline
+        y&$\frac{2}{19}$&$\frac{4}{19}$&$\frac{2}{19}$\\
+        \hline
+        z&0&$\frac{4}{19}$&$\frac{4}{19}$\\
+        \hline        
+    \end{tabular}
+\end{equation}
+
+Построим дерево Хаффмена:
+\begin{equation}
+\Tree [.1 [.$\frac{11}{19}$ [.$\frac7{19}$ [.$\frac3{19}$ [.$\frac1{19}$ [.0 [.0 \textit{xy} ] [.0 \textit{zx} ] ] 
+    [.$\frac1{19}$ \textit{xx} ] ] [.$\frac2{19}$ \textit{xz} ] ] [.$\frac4{19}$ [.$\frac2{19}$ \textit{yx} ] [.$\frac2{19}$ \textit{yz} ] ] ] [.$\frac4{19}$ \textit{yy} ] ]
+    [.$\frac8{19}$ [.$\frac4{19}$ \textit{zy} ] [.$\frac4{19}$ \textit{zz} ] ] ]
+\end{equation}
+
+Запишем код, исходя из дерева Хаффмена:
+
+\begin{equation}
+    \begin{tabular}{|c|c|c|c|}
+        \hline
+        &x&y&z\\
+        \hline
+        x&00001&000000&0001\\
+        \hline
+        y&0010&01&0011\\
+        \hline
+        z&000001&10&11\\
+        \hline        
+    \end{tabular}
+\end{equation}
+
+Средняя длина кодового слова в коде Хаффмена $5\frac1{19}+4\frac2{19}+4\frac2{19}+2\frac4{19}+4\frac2{19}+2\frac4{19}+2\frac4{19} \approx 2.7895$, или $1.3947$ на один символ. Этот результат несколько больше энтропии $1.3345$. Этот метод лучше, чем одиночное кодирование Хаффмена.
+
+\subsection{Определение наилучшего алгоритма кодирования}
+
+Первый символ кодируется также как и в коде Хаффмена согласно таблице (10).
+Последующие символы зависят от предыдущего и кодируются согласно следующей таблице:
+\begin{equation}
+    \begin{tabular}{|c|c|c|c|}
+        \hline
+       $X_{t-1} | X_t$ &x&y&z\\
+        \hline
+        x&0&&1\\
+        \hline
+        y&00&1&01\\
+        \hline
+        z&&0&1\\
+        \hline        
+    \end{tabular}
+\end{equation}
+
+Средняя длина на один символ:
+
+\begin{equation}
+    \begin{split}
+        &l = p(X_{t-1} \neq y) + p(X_{t-1} = y)\left[p(X_t = y)+2 \cdot p(X_t \neq y)\right] \\
+        &l = \frac{11}{19}+\frac{8}{19}\left(\frac{8}{19}+2\frac{11}{19}\right) \approx 1.2438
+    \end{split}
+\end{equation}
+Этот метод лучше двух предыдущих способов и значительно ближе к $H(X|X^\infty)~\approx~1.1976$
