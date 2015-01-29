@@ -1,4 +1,4 @@
-package ru.ifmo.study.term6.seagull.math;
+package ru.ifmo.niyaz.study.term6.seagull.math;
 
 import org.apache.commons.math.MathRuntimeException;
 

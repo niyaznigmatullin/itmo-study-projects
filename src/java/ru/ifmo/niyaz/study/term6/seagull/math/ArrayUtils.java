@@ -1,4 +1,4 @@
-package ru.ifmo.study.term6.seagull.math;
+package ru.ifmo.niyaz.study.term6.seagull.math;
 
 /**
  * Created with IntelliJ IDEA.
