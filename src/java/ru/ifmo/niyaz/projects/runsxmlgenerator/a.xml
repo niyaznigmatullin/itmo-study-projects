@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+<standings>
+
+    <contest name="Учебно-тренировочные сборы школьников РТ. День 7. 30 декабря 2014" time="18610000" length="18610000" status="over" frozen="no" >
+        <challenge>
+            <problem alias="A" name="Коровий бейсбол" />
+            <problem alias="B" name="Молочное расписание" />
+            <problem alias="C" name="Расписание каникул" />
+            <problem alias="D" name="Оптимальное распределение" />
+            <problem alias="E" name="Беси - тасование" />
+        </challenge>
+        <session id="ru.ifmo.camp.kazan.2014-12-regional.day07.04" party="Абдумуталов Рустам (11)" alias="04" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="334" >
+            <problem alias="A" id="org.usaco.2013.dec.bronze.cow-baseball" solved="0" penalty="0" time="1020849" accepted="1" attempts="0" score="100"  >
+                <run accepted="yes" time="1020849" />
+            </problem>
+            <problem alias="B" id="org.usaco.2013.dec.silver.milk-scheduling" solved="0" penalty="0" time="18490977" accepted="1" attempts="0" score="100"  >
+                <run accepted="yes" time="1475962" />
+                <run accepted="yes" time="1548382" />
+                <run accepted="yes" time="2999707" />
+                <run accepted="yes" time="11787567" />
+                <run accepted="yes" time="17184299" />
+                <run accepted="yes" time="17845423" />
+                <run accepted="yes" time="18435407" />
+                <run accepted="yes" time="18490977" />
+            </problem>
+            <problem alias="C" id="org.usaco.2013.dec.gold.vacation-planning" solved="0" penalty="0" time="8668182" accepted="1" attempts="0" score="100"  >
+                <run accepted="yes" time="8189935" />
+                <run accepted="no" time="8644291" />
+                <run accepted="yes" time="8668182" />
+            </problem>
+            <problem alias="D" id="org.usaco.2013.dec.gold.optimal-milking" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0"  >
+            </problem>
+            <problem alias="E" id="org.usaco.2013.dec.gold.the-bessie-shuffle" solved="0" penalty="0" time="17259584" accepted="1" attempts="0" score="34"  >
+                <run accepted="yes" time="17050249" />
+                <run accepted="yes" time="17259584" />
+            </problem>
+        </session>
+        <session id="ru.ifmo.camp.kazan.2014-12-regional.day07.37" party="Муравьев Кирилл (11)" alias="37" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="300" >
+            <problem alias="A" id="org.usaco.2013.dec.bronze.cow-baseball" solved="0" penalty="0" time="4602877" accepted="1" attempts="0" score="100"  >
+                <run accepted="yes" time="550684" />
+                <run accepted="yes" time="4453138" />
+                <run accepted="yes" time="4602877" />
+            </problem>
+            <problem alias="B" id="org.usaco.2013.dec.silver.milk-scheduling" solved="0" penalty="0" time="17934295" accepted="1" attempts="0" score="100"  >
+                <run accepted="yes" time="1410143" />
+                <run accepted="yes" time="1754499" />
+                <run accepted="yes" time="2898732" />
+                <run accepted="yes" time="4023333" />
+                <run accepted="yes" time="5815980" />
+                <run accepted="yes" time="11940168" />
+                <run accepted="yes" time="12318521" />
+                <run accepted="yes" time="12346967" />
+                <run accepted="yes" time="12920055" />
+                <run accepted="yes" time="12982127" />
+                <run accepted="yes" time="13131656" />
+                <run accepted="yes" time="17809231" />
+                <run accepted="yes" time="17934295" />
+            </problem>
+            <problem alias="C" id="org.usaco.2013.dec.gold.vacation-planning" solved="0" penalty="0" time="8980775" accepted="1" attempts="0" score="100"  >
+                <run accepted="yes" time="7685277" />
+                <run accepted="yes" time="7818425" />
+                <run accepted="yes" time="7873878" />
+                <run accepted="yes" time="8318649" />
+                <run accepted="yes" time="8980775" />
+            </problem>
+            <problem alias="D" id="org.usaco.2013.dec.gold.optimal-milking" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0"  >
+            </problem>
+            <problem alias="E" id="org.usaco.2013.dec.gold.the-bessie-shuffle" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0"  >
+            </problem>
+        </session>
+        <session id="ru.ifmo.camp.kazan.2014-12-regional.day07.34" party="Захаров Дмитрий (10)" alias="34" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="260" >
+            <problem alias="A" id="org.usaco.2013.dec.bronze.cow-baseball" solved="0" penalty="0" time="4519207" accepted="1" attempts="0" score="100"  >
+                <run accepted="yes" time="1421581" />
+                <run accepted="yes" time="4519207" />
+            </problem>
+            <problem alias="B" id="org.usaco.2013.dec.silver.milk-scheduling" solved="0" penalty="0" time="18604608" accepted="1" attempts="0" score="50"  >
+                <run accepted="yes" time="2017588" />
+                <run accepted="yes" time="11677637" />
+                <run accepted="yes" time="11714151" />
+                <run accepted="yes" time="11738803" />
+                <run accepted="yes" time="17136641" />
+                <run accepted="yes" time="18492542" />
+                <run accepted="yes" time="18514790" />
+                <run accepted="no" time="18563664" />
+                <run accepted="yes" time="18604608" />
+            </problem>
+            <problem alias="C" id="org.usaco.2013.dec.gold.vacation-planning" solved="0" penalty="0" time="16547137" accepted="1" attempts="0" score="100"  >
+                <run accepted="yes" time="5590952" />
+                <run accepted="yes" time="9522505" />
+                <run accepted="yes" time="9823149" />
+                <run accepted="yes" time="10497483" />
+                <run accepted="yes" time="13514778" />
+                <run accepted="yes" time="13602893" />
+                <run accepted="yes" time="13768074" />
+                <run accepted="yes" time="13976981" />
+                <run accepted="yes" time="14244593" />
+                <run accepted="yes" time="15426800" />
+                <run accepted="yes" time="15515636" />
+                <run accepted="yes" time="15730393" />
+                <run accepted="yes" time="16547137" />
+            </problem>
+            <problem alias="D" id="org.usaco.2013.dec.gold.optimal-milking" solved="0" penalty="0" time="18353928" accepted="1" attempts="0" score="10"  >
+                <run accepted="yes" time="17090075" />
+                <run accepted="yes" time="17751636" />
+                <run accepted="yes" time="17857216" />
+                <run accepted="yes" time="18353928" />
+            </problem>
+            <problem alias="E" id="org.usaco.2013.dec.gold.the-bessie-shuffle" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0"  >
+            </problem>
+        </session>
+        <session id="ru.ifmo.camp.kazan.2014-12-regional.day07.23" party="Гумеров Арслан (9)" alias="23" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="215" >
+            <problem alias="A" id="org.usaco.2013.dec.bronze.cow-baseball" solved="0" penalty="0" time="2838967" accepted="1" attempts="0" score="100"  >
+                <run accepted="yes" time="2838967" />
+            </problem>
+            <problem alias="B" id="org.usaco.2013.dec.silver.milk-scheduling" solved="0" penalty="0" time="18160734" accepted="1" attempts="0" score="50"  >
+                <run accepted="yes" time="4698594" />
+                <run accepted="no" time="17831336" />
+                <run accepted="no" time="17958555" />
+                <run accepted="yes" time="18096909" />
+                <run accepted="yes" time="18160734" />
+                <run accepted="no" time="18536290" />
+            </problem>
+            <problem alias="C" id="org.usaco.2013.dec.gold.vacation-planning" solved="0" penalty="0" time="10448917" accepted="1" attempts="0" score="45"  >
+                <run accepted="yes" time="7650716" />
+                <run accepted="yes" time="8116670" />
+                <run accepted="yes" time="10215035" />
+                <run accepted="yes" time="10448917" />
+                <run accepted="yes" time="10605462" />
+            </problem>
+            <problem alias="D" id="org.usaco.2013.dec.gold.optimal-milking" solved="0" penalty="0" time="9173433" accepted="1" attempts="0" score="20"  >
+                <run accepted="no" time="9135540" />
+                <run accepted="yes" time="9173433" />
+            </problem>
+            <problem alias="E" id="org.usaco.2013.dec.gold.the-bessie-shuffle" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0"  >
+            </problem>
+        </session>
+        <session id="ru.ifmo.camp.kazan.2014-12-regional.day07.29" party="Султанов Азат (11)" alias="29" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="201" >
+            <problem alias="A" id="org.usaco.2013.dec.bronze.cow-baseball" solved="0" penalty="0" time="6774814" accepted="1" attempts="0" score="100"  >
+                <run accepted="yes" time="2970215" />
+                <run accepted="yes" time="3200893" />
+                <run accepted="yes" time="6602040" />
+                <run accepted="yes" time="6774814" />
+            </problem>
+            <problem alias="B" id="org.usaco.2013.dec.silver.milk-scheduling" solved="0" penalty="0" time="17076940" accepted="1" attempts="0" score="100"  >
+                <run accepted="yes" time="5456634" />
+                <run accepted="yes" time="9872221" />
+                <run accepted="yes" time="12119481" />
+                <run accepted="yes" time="17076940" />
+            </problem>
+            <problem alias="C" id="org.usaco.2013.dec.gold.vacation-planning" solved="0" penalty="0" time="17671671" accepted="1" attempts="0" score="1"  >
+                <run accepted="yes" time="17671671" />
+            </problem>
+            <problem alias="D" id="org.usaco.2013.dec.gold.optimal-milking" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0"  >
+            </problem>
+            <problem alias="E" id="org.usaco.2013.dec.gold.the-bessie-shuffle" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0"  >
+            </problem>
+        </session>
+        <session id="ru.ifmo.camp.kazan.2014-12-regional.day07.09" party="Рахматуллин Рамазан (8)" alias="09" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="174" >
+            <problem alias="A" id="org.usaco.2013.dec.bronze.cow-baseball" solved="0" penalty="0" time="9363435" accepted="1" attempts="0" score="100"  >
+                <run accepted="yes" time="973578" />
+                <run accepted="yes" time="6606478" />
+                <run accepted="yes" time="8863716" />
+                <run accepted="yes" time="9301350" />
+                <run accepted="yes" time="9363435" />
+            </problem>
+            <problem alias="B" id="org.usaco.2013.dec.silver.milk-scheduling" solved="0" penalty="0" time="18276059" accepted="1" attempts="0" score="50"  >
+                <run accepted="yes" time="1853119" />
+                <run accepted="yes" time="4490542" />
+                <run accepted="yes" time="17082977" />
+                <run accepted="no" time="17272454" />
+                <run accepted="no" time="17296275" />
+                <run accepted="yes" time="17385584" />
+                <run accepted="yes" time="17909491" />
+                <run accepted="yes" time="17979110" />
+                <run accepted="yes" time="18276059" />
+            </problem>
+            <problem alias="C" id="org.usaco.2013.dec.gold.vacation-planning" solved="0" penalty="0" time="12000170" accepted="1" attempts="0" score="23"  >
+                <run accepted="yes" time="11970756" />
+                <run accepted="yes" time="12000170" />
+                <run accepted="yes" time="12105016" />
+                <run accepted="yes" time="12132124" />
+                <run accepted="yes" time="12162373" />
+                <run accepted="yes" time="12302928" />
+                <run accepted="no" time="15961190" />
+                <run accepted="yes" time="16002374" />
+                <run accepted="no" time="16058502" />
+                <run accepted="no" time="16138170" />
+                <run accepted="yes" time="16193877" />
+            </problem>
+            <problem alias="D" id="org.usaco.2013.dec.gold.optimal-milking" solved="0" penalty="0" time="17814441" accepted="1" attempts="0" score="0"  >
+                <run accepted="yes" time="17814441" />
+            </problem>
+            <problem alias="E" id="org.usaco.2013.dec.gold.the-bessie-shuffle" solved="0" penalty="0" time="17753773" accepted="1" attempts="0" score="1"  >
+                <run accepted="yes" time="17753773" />
+            </problem>
+        </session>
+        <session id="ru.ifmo.camp.kazan.2014-12-regional.day07.24" party="Кидрачев Альберт (9)" alias="24" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="151" >
+            <problem alias="A" id="org.usaco.2013.dec.bronze.cow-baseball" solved="0" penalty="0" time="4507972" accepted="1" attempts="0" score="100"  >
+                <run accepted="yes" time="3726867" />
+                <run accepted="no" time="4479494" />
+                <run accepted="yes" time="4507972" />
+            </problem>
+            <problem alias="B" id="org.usaco.2013.dec.silver.milk-scheduling" solved="0" penalty="0" time="17222706" accepted="1" attempts="0" score="50"  >
+                <run accepted="yes" time="4343986" />
+                <run accepted="yes" time="6646354" />
+                <run accepted="no" time="6731185" />
+                <run accepted="yes" time="6751438" />
+                <run accepted="no" time="7458126" />
+                <run accepted="yes" time="8603275" />
+                <run accepted="yes" time="16276260" />
+                <run accepted="yes" time="16324713" />
+                <run accepted="yes" time="16380233" />
+                <run accepted="yes" time="17222706" />
+                <run accepted="yes" time="17807577" />
+                <run accepted="no" time="17973756" />
+                <run accepted="yes" time="18039051" />
+                <run accepted="yes" time="18137148" />
+                <run accepted="yes" time="18237528" />
+                <run accepted="yes" time="18304234" />
+            </problem>
+            <problem alias="C" id="org.usaco.2013.dec.gold.vacation-planning" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0"  >
+            </problem>
+            <problem alias="D" id="org.usaco.2013.dec.gold.optimal-milking" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0"  >
+            </problem>
+            <problem alias="E" id="org.usaco.2013.dec.gold.the-bessie-shuffle" solved="0" penalty="0" time="17556060" accepted="1" attempts="0" score="1"  >
+                <run accepted="yes" time="17556060" />
+            </problem>
+        </session>
+        <session id="ru.ifmo.camp.kazan.2014-12-regional.day07.01" party="Газизуллин Малик (10)" alias="01" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="150" >
+            <problem alias="A" id="org.usaco.2013.dec.bronze.cow-baseball" solved="0" penalty="0" time="11018354" accepted="1" attempts="0" score="100"  >
+                <run accepted="no" time="8324201" />
+                <run accepted="yes" time="8345760" />
+                <run accepted="yes" time="8515934" />
+                <run accepted="no" time="8811957" />
+                <run accepted="no" time="8903853" />
+                <run accepted="yes" time="9091731" />
+                <run accepted="yes" time="9456989" />
+                <run accepted="yes" time="9517512" />
+                <run accepted="yes" time="10821658" />
+                <run accepted="yes" time="11018354" />
+            </problem>
+            <problem alias="B" id="org.usaco.2013.dec.silver.milk-scheduling" solved="0" penalty="0" time="18564960" accepted="1" attempts="0" score="50"  >
+                <run accepted="yes" time="12406830" />
+                <run accepted="yes" time="14745714" />
+                <run accepted="yes" time="18564960" />
+            </problem>
+            <problem alias="C" id="org.usaco.2013.dec.gold.vacation-planning" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0"  >
+            </problem>
+            <problem alias="D" id="org.usaco.2013.dec.gold.optimal-milking" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0"  >
+            </problem>
+            <problem alias="E" id="org.usaco.2013.dec.gold.the-bessie-shuffle" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0"  >
+            </problem>
+        </session>
+        <session id="ru.ifmo.camp.kazan.2014-12-regional.day07.20" party="Воробьев Александр (11)" alias="20" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="124" >
+            <problem alias="A" id="org.usaco.2013.dec.bronze.cow-baseball" solved="0" penalty="0" time="2209692" accepted="1" attempts="0" score="50"  >
+                <run accepted="yes" time="2209692" />
+            </problem>
+            <problem alias="B" id="org.usaco.2013.dec.silver.milk-scheduling" solved="0" penalty="0" time="1382632" accepted="1" attempts="0" score="50"  >
+                <run accepted="yes" time="1382632" />
+            </problem>
+            <problem alias="C" id="org.usaco.2013.dec.gold.vacation-planning" solved="0" penalty="0" time="6389300" accepted="1" attempts="0" score="23"  >
+                <run accepted="yes" time="6389300" />
+            </problem>
+            <problem alias="D" id="org.usaco.2013.dec.gold.optimal-milking" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0"  >
+            </problem>
+            <problem alias="E" id="org.usaco.2013.dec.gold.the-bessie-shuffle" solved="0" penalty="0" time="16545452" accepted="1" attempts="0" score="1"  >
+                <run accepted="no" time="16523737" />
+                <run accepted="yes" time="16545452" />
+            </problem>
+        </session>
+        <session id="ru.ifmo.camp.kazan.2014-12-regional.day07.15" party="Зверев Игорь (8)" alias="15" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="102" >
+            <problem alias="A" id="org.usaco.2013.dec.bronze.cow-baseball" solved="0" penalty="0" time="1319513" accepted="1" attempts="0" score="50"  >
+                <run accepted="yes" time="1091252" />
+                <run accepted="yes" time="1319513" />
+                <run accepted="yes" time="6356640" />
+                <run accepted="no" time="6704353" />
+                <run accepted="yes" time="6761237" />
+            </problem>
+            <problem alias="B" id="org.usaco.2013.dec.silver.milk-scheduling" solved="0" penalty="0" time="17950011" accepted="1" attempts="0" score="50"  >
+                <run accepted="yes" time="3420165" />
+                <run accepted="yes" time="3547870" />
+                <run accepted="no" time="3635598" />
+                <run accepted="yes" time="4330270" />
+                <run accepted="yes" time="4844276" />
+                <run accepted="yes" time="14551903" />
+                <run accepted="yes" time="14625568" />
+                <run accepted="yes" time="17950011" />
+            </problem>
+            <problem alias="C" id="org.usaco.2013.dec.gold.vacation-planning" solved="0" penalty="0" time="9626083" accepted="1" attempts="0" score="1"  >
+                <run accepted="yes" time="9626083" />
+            </problem>
+            <problem alias="D" id="org.usaco.2013.dec.gold.optimal-milking" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0"  >
+                <run accepted="no" time="9605937" />
+            </problem>
+            <problem alias="E" id="org.usaco.2013.dec.gold.the-bessie-shuffle" solved="0" penalty="0" time="13417632" accepted="1" attempts="0" score="1"  >
+                <run accepted="yes" time="13417632" />
+            </problem>
+        </session>
+        <session id="ru.ifmo.camp.kazan.2014-12-regional.day07.16" party="Галиева Ландыш (10)" alias="16" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="102" >
+            <problem alias="A" id="org.usaco.2013.dec.bronze.cow-baseball" solved="0" penalty="0" time="6615848" accepted="1" attempts="0" score="50"  >
+                <run accepted="yes" time="1228975" />
+                <run accepted="no" time="1952112" />
+                <run accepted="yes" time="6570732" />
+                <run accepted="yes" time="6615848" />
+            </problem>
+            <problem alias="B" id="org.usaco.2013.dec.silver.milk-scheduling" solved="0" penalty="0" time="15098927" accepted="1" attempts="0" score="50"  >
+                <run accepted="yes" time="1960554" />
+                <run accepted="yes" time="13664767" />
+                <run accepted="yes" time="13941177" />
+                <run accepted="no" time="15065519" />
+                <run accepted="yes" time="15098927" />
+                <run accepted="yes" time="17862021" />
+                <run accepted="no" time="17986142" />
+                <run accepted="yes" time="18004429" />
+            </problem>
+            <problem alias="C" id="org.usaco.2013.dec.gold.vacation-planning" solved="0" penalty="0" time="8983764" accepted="1" attempts="0" score="1"  >
+                <run accepted="no" time="8840333" />
+                <run accepted="no" time="8961612" />
+                <run accepted="yes" time="8983764" />
+            </problem>
+            <problem alias="D" id="org.usaco.2013.dec.gold.optimal-milking" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0"  >
+            </problem>
+            <problem alias="E" id="org.usaco.2013.dec.gold.the-bessie-shuffle" solved="0" penalty="0" time="18303039" accepted="1" attempts="0" score="1"  >
+                <run accepted="yes" time="18303039" />
+            </problem>
+        </session>
+        <session id="ru.ifmo.camp.kazan.2014-12-regional.day07.18" party="Лернер Регина (11)" alias="18" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="102" >
+            <problem alias="A" id="org.usaco.2013.dec.bronze.cow-baseball" solved="0" penalty="0" time="11823826" accepted="1" attempts="0" score="50"  >
+                <run accepted="yes" time="4185010" />
+                <run accepted="yes" time="4279525" />
+                <run accepted="yes" time="5475945" />
+                <run accepted="yes" time="11823826" />
+            </problem>
+            <problem alias="B" id="org.usaco.2013.dec.silver.milk-scheduling" solved="0" penalty="0" time="17281876" accepted="1" attempts="0" score="50"  >
+                <run accepted="yes" time="8578516" />
+                <run accepted="no" time="17149121" />
+                <run accepted="yes" time="17281876" />
+            </problem>
+            <problem alias="C" id="org.usaco.2013.dec.gold.vacation-planning" solved="0" penalty="0" time="17980807" accepted="1" attempts="0" score="1"  >
+                <run accepted="yes" time="17980807" />
+            </problem>
+            <problem alias="D" id="org.usaco.2013.dec.gold.optimal-milking" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0"  >
+            </problem>
+            <problem alias="E" id="org.usaco.2013.dec.gold.the-bessie-shuffle" solved="0" penalty="0" time="18142768" accepted="1" attempts="0" score="1"  >
+                <run accepted="yes" time="18142768" />
+            </problem>
+        </session>
+        <session id="ru.ifmo.camp.kazan.2014-12-regional.day07.03" party="Максимов Антон (9)" alias="03" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="100" >
+            <problem alias="A" id="org.usaco.2013.dec.bronze.cow-baseball" solved="0" penalty="0" time="1890600" accepted="1" attempts="0" score="50"  >
+                <run accepted="yes" time="1890600" />
+                <run accepted="no" time="3607026" />
+                <run accepted="yes" time="3642557" />
+            </problem>
+            <problem alias="B" id="org.usaco.2013.dec.silver.milk-scheduling" solved="0" penalty="0" time="18473076" accepted="1" attempts="0" score="50"  >
+                <run accepted="yes" time="5042376" />
+                <run accepted="no" time="5320423" />
+                <run accepted="yes" time="5666537" />
+                <run accepted="yes" time="6616756" />
+                <run accepted="yes" time="6850049" />
+                <run accepted="yes" time="6875730" />
+                <run accepted="yes" time="7771958" />
+                <run accepted="no" time="7942233" />
+                <run accepted="yes" time="8039483" />
+                <run accepted="yes" time="12035201" />
+                <run accepted="yes" time="12173113" />
+                <run accepted="yes" time="13197384" />
+                <run accepted="yes" time="17099108" />
+                <run accepted="yes" time="18473076" />
+            </problem>
+            <problem alias="C" id="org.usaco.2013.dec.gold.vacation-planning" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0"  >
+            </problem>
+            <problem alias="D" id="org.usaco.2013.dec.gold.optimal-milking" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0"  >
+            </problem>
+            <problem alias="E" id="org.usaco.2013.dec.gold.the-bessie-shuffle" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0"  >
+            </problem>
+        </session>
+        <session id="ru.ifmo.camp.kazan.2014-12-regional.day07.05" party="Архипов Денис (11)" alias="05" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="100" >
+            <problem alias="A" id="org.usaco.2013.dec.bronze.cow-baseball" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0"  >
+            </problem>
+            <problem alias="B" id="org.usaco.2013.dec.silver.milk-scheduling" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0"  >
+            </problem>
+            <problem alias="C" id="org.usaco.2013.dec.gold.vacation-planning" solved="0" penalty="0" time="17859260" accepted="1" attempts="0" score="100"  >
+                <run accepted="yes" time="17448702" />
+                <run accepted="no" time="17572939" />
+                <run accepted="yes" time="17602470" />
+                <run accepted="yes" time="17859260" />
+            </problem>
+            <problem alias="D" id="org.usaco.2013.dec.gold.optimal-milking" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0"  >
+            </problem>
+            <problem alias="E" id="org.usaco.2013.dec.gold.the-bessie-shuffle" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0"  >
+            </problem>
+        </session>
+        <session id="ru.ifmo.camp.kazan.2014-12-regional.day07.26" party="Азангулов Искандер (10)" alias="26" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="100" >
+            <problem alias="A" id="org.usaco.2013.dec.bronze.cow-baseball" solved="0" penalty="0" time="12556057" accepted="1" attempts="0" score="100"  >
+                <run accepted="no" time="1674075" />
+                <run accepted="yes" time="1738240" />
+                <run accepted="yes" time="12512281" />
+                <run accepted="yes" time="12556057" />
+            </problem>
+            <problem alias="B" id="org.usaco.2013.dec.silver.milk-scheduling" solved="0" penalty="0" time="6203570" accepted="1" attempts="0" score="0"  >
+                <run accepted="yes" time="6203570" />
+            </problem>
+            <problem alias="C" id="org.usaco.2013.dec.gold.vacation-planning" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0"  >
+            </problem>
+            <problem alias="D" id="org.usaco.2013.dec.gold.optimal-milking" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0"  >
+            </problem>
+            <problem alias="E" id="org.usaco.2013.dec.gold.the-bessie-shuffle" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0"  >
+            </problem>
+        </session>
+        <session id="ru.ifmo.camp.kazan.2014-12-regional.day07.35" party="Круглов Максим (10)" alias="35" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="100" >
+            <problem alias="A" id="org.usaco.2013.dec.bronze.cow-baseball" solved="0" penalty="0" time="4529084" accepted="1" attempts="0" score="100"  >
+                <run accepted="yes" time="1125933" />
+                <run accepted="yes" time="4529084" />
+            </problem>
+            <problem alias="B" id="org.usaco.2013.dec.silver.milk-scheduling" solved="0" penalty="0" time="2960899" accepted="1" attempts="0" score="0"  >
+                <run accepted="yes" time="1897201" />
+                <run accepted="yes" time="2310746" />
+                <run accepted="yes" time="2442399" />
+                <run accepted="yes" time="2960899" />
+                <run accepted="yes" time="3789956" />
+                <run accepted="yes" time="4316944" />
+            </problem>
+            <problem alias="C" id="org.usaco.2013.dec.gold.vacation-planning" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0"  >
+            </problem>
+            <problem alias="D" id="org.usaco.2013.dec.gold.optimal-milking" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0"  >
+            </problem>
+            <problem alias="E" id="org.usaco.2013.dec.gold.the-bessie-shuffle" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0"  >
+            </problem>
+        </session>
+        <session id="ru.ifmo.camp.kazan.2014-12-regional.day07.19" party="Терехов Николай (8)" alias="19" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="52" >
+            <problem alias="A" id="org.usaco.2013.dec.bronze.cow-baseball" solved="0" penalty="0" time="8623366" accepted="1" attempts="0" score="50"  >
+                <run accepted="yes" time="8171715" />
+                <run accepted="yes" time="8623366" />
+                <run accepted="yes" time="9117998" />
+                <run accepted="yes" time="9358474" />
+                <run accepted="no" time="9467753" />
+                <run accepted="yes" time="9755597" />
+                <run accepted="no" time="13471751" />
+            </problem>
+            <problem alias="B" id="org.usaco.2013.dec.silver.milk-scheduling" solved="0" penalty="0" time="5694296" accepted="1" attempts="0" score="0"  >
+                <run accepted="yes" time="2675028" />
+                <run accepted="yes" time="4336200" />
+                <run accepted="yes" time="4898119" />
+                <run accepted="no" time="5323083" />
+                <run accepted="yes" time="5350035" />
+                <run accepted="yes" time="5413516" />
+                <run accepted="yes" time="5465661" />
+                <run accepted="yes" time="5579776" />
+                <run accepted="yes" time="5694296" />
+                <run accepted="yes" time="14184987" />
+                <run accepted="yes" time="14281154" />
+                <run accepted="yes" time="15851992" />
+                <run accepted="yes" time="16631392" />
+                <run accepted="no" time="17219289" />
+            </problem>
+            <problem alias="C" id="org.usaco.2013.dec.gold.vacation-planning" solved="0" penalty="0" time="13574137" accepted="1" attempts="0" score="1"  >
+                <run accepted="yes" time="13574137" />
+            </problem>
+            <problem alias="D" id="org.usaco.2013.dec.gold.optimal-milking" solved="0" penalty="0" time="13700324" accepted="1" attempts="0" score="0"  >
+                <run accepted="yes" time="13700324" />
+            </problem>
+            <problem alias="E" id="org.usaco.2013.dec.gold.the-bessie-shuffle" solved="0" penalty="0" time="13644332" accepted="1" attempts="0" score="1"  >
+                <run accepted="yes" time="13644332" />
+            </problem>
+        </session>
+        <session id="ru.ifmo.camp.kazan.2014-12-regional.day07.25" party="Шарипов Фаргат (9)" alias="25" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="52" >
+            <problem alias="A" id="org.usaco.2013.dec.bronze.cow-baseball" solved="0" penalty="0" time="8015390" accepted="1" attempts="0" score="50"  >
+                <run accepted="yes" time="4345562" />
+                <run accepted="yes" time="4534608" />
+                <run accepted="yes" time="5087188" />
+                <run accepted="no" time="5328946" />
+                <run accepted="yes" time="5347129" />
+                <run accepted="yes" time="5380788" />
+                <run accepted="yes" time="8015390" />
+            </problem>
+            <problem alias="B" id="org.usaco.2013.dec.silver.milk-scheduling" solved="0" penalty="0" time="11361039" accepted="1" attempts="0" score="0"  >
+                <run accepted="yes" time="6212113" />
+                <run accepted="yes" time="11361039" />
+            </problem>
+            <problem alias="C" id="org.usaco.2013.dec.gold.vacation-planning" solved="0" penalty="0" time="10001194" accepted="1" attempts="0" score="1"  >
+                <run accepted="yes" time="9201715" />
+                <run accepted="yes" time="9989247" />
+                <run accepted="yes" time="10001194" />
+            </problem>
+            <problem alias="D" id="org.usaco.2013.dec.gold.optimal-milking" solved="0" penalty="0" time="9304108" accepted="1" attempts="0" score="0"  >
+                <run accepted="yes" time="9304108" />
+                <run accepted="no" time="10022687" />
+                <run accepted="no" time="10041619" />
+            </problem>
+            <problem alias="E" id="org.usaco.2013.dec.gold.the-bessie-shuffle" solved="0" penalty="0" time="9461941" accepted="1" attempts="0" score="1"  >
+                <run accepted="yes" time="9461941" />
+            </problem>
+        </session>
+        <session id="ru.ifmo.camp.kazan.2014-12-regional.day07.31" party="Валидов Нияз (11)" alias="31" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="52" >
+            <problem alias="A" id="org.usaco.2013.dec.bronze.cow-baseball" solved="0" penalty="0" time="1777906" accepted="1" attempts="0" score="50"  >
+                <run accepted="yes" time="1777906" />
+            </problem>
+            <problem alias="B" id="org.usaco.2013.dec.silver.milk-scheduling" solved="0" penalty="0" time="8073458" accepted="1" attempts="0" score="0"  >
+                <run accepted="yes" time="7620193" />
+                <run accepted="yes" time="8073458" />
+            </problem>
+            <problem alias="C" id="org.usaco.2013.dec.gold.vacation-planning" solved="0" penalty="0" time="9719958" accepted="1" attempts="0" score="1"  >
+                <run accepted="yes" time="9719958" />
+            </problem>
+            <problem alias="D" id="org.usaco.2013.dec.gold.optimal-milking" solved="0" penalty="0" time="9330954" accepted="1" attempts="0" score="0"  >
+                <run accepted="no" time="9304684" />
+                <run accepted="yes" time="9330954" />
+            </problem>
+            <problem alias="E" id="org.usaco.2013.dec.gold.the-bessie-shuffle" solved="0" penalty="0" time="9840093" accepted="1" attempts="0" score="1"  >
+                <run accepted="yes" time="9840093" />
+            </problem>
+        </session>
+        <session id="ru.ifmo.camp.kazan.2014-12-regional.day07.07" party="Мустафин Ильгиз (11)" alias="07" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="51" >
+            <problem alias="A" id="org.usaco.2013.dec.bronze.cow-baseball" solved="0" penalty="0" time="1134554" accepted="1" attempts="0" score="50"  >
+                <run accepted="yes" time="1134554" />
+            </problem>
+            <problem alias="B" id="org.usaco.2013.dec.silver.milk-scheduling" solved="0" penalty="0" time="3514758" accepted="1" attempts="0" score="0"  >
+                <run accepted="yes" time="2750537" />
+                <run accepted="yes" time="3477183" />
+                <run accepted="yes" time="3514758" />
+            </problem>
+            <problem alias="C" id="org.usaco.2013.dec.gold.vacation-planning" solved="0" penalty="0" time="18600437" accepted="1" attempts="0" score="1"  >
+                <run accepted="yes" time="11375991" />
+                <run accepted="yes" time="18514789" />
+                <run accepted="yes" time="18600437" />
+            </problem>
+            <problem alias="D" id="org.usaco.2013.dec.gold.optimal-milking" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0"  >
+            </problem>
+            <problem alias="E" id="org.usaco.2013.dec.gold.the-bessie-shuffle" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0"  >
+            </problem>
+        </session>
+        <session id="ru.ifmo.camp.kazan.2014-12-regional.day07.17" party="Староверов Арсений (7)" alias="17" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="51" >
+            <problem alias="A" id="org.usaco.2013.dec.bronze.cow-baseball" solved="0" penalty="0" time="4773822" accepted="1" attempts="0" score="50"  >
+                <run accepted="yes" time="2103318" />
+                <run accepted="yes" time="4773822" />
+                <run accepted="yes" time="6669862" />
+                <run accepted="yes" time="8388841" />
+                <run accepted="yes" time="16238633" />
+            </problem>
+            <problem alias="B" id="org.usaco.2013.dec.silver.milk-scheduling" solved="0" penalty="0" time="17401465" accepted="1" attempts="0" score="0"  >
+                <run accepted="yes" time="2967625" />
+                <run accepted="yes" time="3362195" />
+                <run accepted="no" time="8637495" />
+                <run accepted="yes" time="8665782" />
+                <run accepted="no" time="8997695" />
+                <run accepted="yes" time="9085676" />
+                <run accepted="no" time="17148216" />
+                <run accepted="yes" time="17401465" />
+                <run accepted="yes" time="18600357" />
+                <run accepted="yes" time="18604412" />
+                <run accepted="yes" time="18606150" />
+            </problem>
+            <problem alias="C" id="org.usaco.2013.dec.gold.vacation-planning" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0"  >
+                <run accepted="no" time="11964371" />
+            </problem>
+            <problem alias="D" id="org.usaco.2013.dec.gold.optimal-milking" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0"  >
+            </problem>
+            <problem alias="E" id="org.usaco.2013.dec.gold.the-bessie-shuffle" solved="0" penalty="0" time="12134549" accepted="1" attempts="0" score="1"  >
+                <run accepted="no" time="12114884" />
+                <run accepted="yes" time="12134549" />
+            </problem>
+        </session>
+        <session id="ru.ifmo.camp.kazan.2014-12-regional.day07.30" party="Астафьев Илья (9)" alias="30" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="50" >
+            <problem alias="A" id="org.usaco.2013.dec.bronze.cow-baseball" solved="0" penalty="0" time="4590409" accepted="1" attempts="0" score="50"  >
+                <run accepted="yes" time="4326431" />
+                <run accepted="yes" time="4387460" />
+                <run accepted="yes" time="4590409" />
+            </problem>
+            <problem alias="B" id="org.usaco.2013.dec.silver.milk-scheduling" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0"  >
+            </problem>
+            <problem alias="C" id="org.usaco.2013.dec.gold.vacation-planning" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0"  >
+            </problem>
+            <problem alias="D" id="org.usaco.2013.dec.gold.optimal-milking" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0"  >
+            </problem>
+            <problem alias="E" id="org.usaco.2013.dec.gold.the-bessie-shuffle" solved="0" penalty="0" time="0" accepted="0" attempts="0" score="0"  >
+            </problem>
+        </session>
+    </contest>
+</standings>
