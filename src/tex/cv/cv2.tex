@@ -15,6 +15,12 @@
 \usepackage{geometry}
 \usepackage{longtable}
 \usepackage{hyperref}
+\usepackage{multicol}
+
+\hoffset=-20mm
+\voffset=-15mm
+\textheight=250mm
+\textwidth=175mm
 
 \hypersetup{
     colorlinks=true,
@@ -24,22 +30,29 @@
     }
 
 \begin{document}
-\title{Curriculum vitae}
+\title{ \vspace{-2cm} Curriculum vitae \vspace{-1cm} }
 \date{}        
+
 \maketitle
+
+\begin{multicols}{2}
 
 \section{Contact information}
 \begin{center}
 \begin{tabular}{r|l}
     Name&Niyaz Nigmatullin \\
     E-mail&niyaz.nigmatullin@gmail.com \\
-    Place of birth&Kazan, Russian Federation \\
+    Place of birth&Kazan, Russia \\
+    Place of residence & St. Petersburg, Russia \\
+    Phone & +79111743978 \\
 \end{tabular}
 \end{center}
 
 \section{Links}
+
 \begin{center}
     \begin{tabular}{l}
+        \href{https://www.linkedin.com/in/niyaz-nigmatullin-6506561b6/}{Linkedin} \\
         \href{https://www.youtube.com/c/NiyazNigmatullin}{YouTube} \\
         \href{https://github.com/niyaznigmatullin/}{GitHub} \\
         \href{https://codeforces.com/profile/niyaznigmatul}{Codeforces} \\
@@ -48,73 +61,49 @@
     \end{tabular}
 \end{center}
 
-\section{Work experience}
-\subsection{Education and Competitions}
-\begin{center}
-  \begin{tabular}{l|p{12 cm}}
-    April 2014 & Scientific committee member of Russian Olympiad in Informatics 2014 \\
-    Years 2009 to 2014 & Scientific committee member of Russian team programming competition for high school students \\
-    2013 and 2014 & Coach of IOI (International Olympiad in Informatics) Russian team on Winter and Summer camps in Russia \\
-    2013 and 2014 & Java programming language courses tutor in ITMO University \\
-    2013 and 2014 & Algorithms and Data Structures courses tutor in ITMO University \\
-    September 2014 & Kazan Federal University ACM ICPC teams workshop \\
-    October  2014 -- 2016 & UCLA ACM ICPC training week lecturer \\
-    November 2014 & Harbin Institute of Technology ACM ICPC training week lecturer \\
-    November 2014 & Organizer of team programming competition for high school students of Kazan \\
-    Since 2014 & Russian Olympiad in Informatics scientific committee member \\
-    Since 2015 & ICPC Northern Eurasia scientific committee member \\
+\end{multicols}
+
+
+\section{Education}
+  \begin{tabular}{l|p{15 cm}}
+    2013 -- 2015 & Master in Computer Science in ITMO University, St. Petersburg, Russia \\
+    2009 -- 2013 & Bachelor in Computer Science in ITMO University, St. Petersburg, Russia \\
   \end{tabular}
 
-  \begin{tabular}{l|p{12 cm}}
-    July 2015 & Kazakhstan IOI preparation camp content creator and instructor \\
-    September 2015 & Mexican Summer Camp in ICPC instructor \\
-    August 2016 & IOI Host scientific committee member \\
-    August 2018 & eJOI (European Junior olympiad in Informatics) Host scientific committee head \\
-    2018 -- 2020 & APIO (Asia-Pacific informatics olympiad) scientific committee head \\
-    2015 -- 2021 & Innopolis Open in Informatics scientific commitee head \\
-    2015 -- 2021 & Innopolis Winter and Summer school in competitive programming main teacher \\
-    2015 -- 2021 & Algorithms and Data Structures course author and lecturer in ITMO University \\
-    2018 -- 2021 & ITMO Computer Science department administrator and professor. Full-time job \\
-    Since 2019 & \href{https://schools.itmo.ru/en/school/32/}{ITMO Winter and Summer Camps} organizer and instructor \\
-    2019 -- 2021 & Algorithms and Data Structures course author and lecturer in \href{https://compscicenter.ru/}{Computer Science Center} \\
-  \end{tabular}
-\end{center}
+\section{Long-term work experience}
 
 \subsection{Programming and Development}
-  \begin{tabular}{l|p{12 cm}}
-    2015 -- 2018 & VK.com social network, database, fast data structure, compiler developer: C, C++ languages. Part-time job \\
-    2019 -- 2020 & Huawei, Search Ranking consultant expert \\
-    Since 2020 & Huawei, Data Reduction researcher. Part-time job \\
-    Since 2016 & \href{https://www.youtube.com/channel/UCDBXshZdICEHr0HSVsLrydA}{ICPC Live} developer assistant and provider \\
+  \begin{tabular}{l|p{15 cm}}
+    Since 2020 & Huawei, Data Reduction researcher and algorithms developer. Part-time job \\
+    2019 -- 2020 & Huawei, Search Ranking consultant expert. Part-time job \\
+    2015 -- 2018 & VK.com, database, fast data structure, kPHP compiler developer. Part-time job \\
   \end{tabular}
 
-\subsection{Projects}
-  \begin{tabular}{l|p{12cm}}
-    \href{https://github.com/ilsaf13/PolygonContestImporter}{GitHub link} & Utility to import competitive programming problems from \href{https://polygon.codeforces.com}{polygon.codeforces.com} to PCMS2 judging system \\
-    \href{https://github.com/kunyavskiy/polygon-cli}{GitHub link} & Contribution to CLI for \href{https://polygon.codeforces.com}{polygon.codeforces.com} \\
-    \href{https://github.com/niyaznigmatullin/polygon-uploader}{GitHub link} & Authomatic uploading programming contest problems from some websites to \href{https://polygon.codeforces.com}{polygon.codeforces.com} \\
+\subsection{Teaching}
+  \begin{tabular}{l|p{15 cm}}
+    2015 -- 2021 & ITMO Univesity, Algorithms and Data Structures course author and lecturer \\
+    2018 -- 2021 & ITMO Univesity, Computer Science department administrator and professor. Full-time job \\
+    2019 -- 2021 & \href{https://compscicenter.ru/}{Computer Science Center}, Algorithms and Data Structures course author and lecturer \\
+    2013 -- 2015 & ITMO Univesity, Java programming language courses tutor \\
+    2013 -- 2015 & ITMO Univesity, Algorithms and Data Structures courses tutor \\
   \end{tabular}
-\section{Education}
-    Master of Computer Science in ITMO University, St. Petersburg, Russian Federation.
 
-\section{Awards}
-\begin{center}
-    \begin{tabular}{l|l}
-        Year&Achievement \\
-        \hline
-        2008 and 2009& All russian olympiad in informatics medalist \\
-        2012 and 2013 &36th and 37th ACM-ICPC World Finals first place winner and gold medalist \\
-        2013&37th ACM-ICPC World Finals first place winner and gold medalist \\
-        2011 and 2012&ACM-ICPC Northeastern European regional contest winner \\
-        2014 & Facebook Hackercup final round 4th place \\
-        2015 & VK cup Finals winner \\
-        2019 & Google Hash Code World Finals winner \\
-        2020 & Google Hash Code World Finals winner \\
-        2021 & Google Hash Code World Finals 3rd place \\
-    \end{tabular}
-\end{center}
+\section{Competition Awards}
+\begin{tabular}{l|l}
+    2021 & Google Hash Code World Finals 3rd place \\
+    2019, 2020 & Google Hash Code World Finals winner \\
+    2015 & VK Cup Finals winner \\
+    2014 & Facebook Hackercup Finals 4th place \\
+    2012, 2013 & ACM-ICPC World Finals World Champion and gold medalist \\
+    2008, 2009 & Russian olympiad in informatics medalist \\
+\end{tabular}
+
+\vspace{0.5cm}
+
+\begin{multicols}{2}
 
 \section{Languages}
+
 \begin{center}  
     \begin{tabular}{l|l}
         Language&Level of knowledge \\
@@ -125,7 +114,54 @@
         Turkish&Conversant \\
     \end{tabular}
 \end{center}
+
+
 \section{Programming Languages}
     Java, C++, C, Pascal, Python, Haskell
+
+\end{multicols}
+
+\section{Short-term or annual projects}
+
+\subsection{Programming and Development}
+  \begin{tabular}{l|p{15 cm}}
+    Since 2016 & \href{https://www.youtube.com/channel/UCDBXshZdICEHr0HSVsLrydA}{ICPC Live} developer assistant and provider \\
+  \end{tabular}
+
+\subsection{Projects}
+  \begin{tabular}{l|p{15cm}}
+    \href{https://github.com/ilsaf13/PolygonContestImporter}{GitHub link} & Utility to import competitive programming problems from \href{https://polygon.codeforces.com}{polygon.codeforces.com} to PCMS2 judging system \\
+    \href{https://github.com/kunyavskiy/polygon-cli}{GitHub link} & Contribution to CLI for \href{https://polygon.codeforces.com}{polygon.codeforces.com} \\
+    \href{https://github.com/niyaznigmatullin/polygon-uploader}{GitHub link} & Authomatic uploading programming contest problems from some websites to \href{https://polygon.codeforces.com}{polygon.codeforces.com} \\
+  \end{tabular}
+
+
+\subsection{Competitions}
+
+\begin{tabular}{l|p{15 cm}}
+2015 -- 2021 & Innopolis Open in Informatics scientific commitee head \\
+2018 -- 2020 & APIO (Asia-Pacific informatics olympiad) scientific committee head \\
+August 2018 & eJOI (European Junior olympiad in Informatics) Host scientific committee head \\
+August 2016 & IOI Host scientific committee member \\
+Since 2015 & ICPC Northern Eurasia scientific committee member \\
+Since 2014 & Russian Olympiad in Informatics scientific committee member \\
+Since 2014 & Organizer of team programming competition for high school students of Kazan \\
+2009 -- 2014 & Scientific committee member of Russian team programming competition for high school students \\
+\end{tabular}
+
+\subsection{Teaching}
+
+\begin{tabular}{l|p{15 cm}}
+Since 2019 & \href{https://schools.itmo.ru/en/school/32/}{ITMO Winter and Summer Camps} organizer and instructor \\
+2015 -- 2021 & Innopolis Winter and Summer school in competitive programming main teacher \\
+2014 -- 2016 & UCLA ICPC training week coach \\
+2014 -- 2016 & ETH Zurich ICPC traning week coach \\
+September 2015 & Mexican Summer Camp in ICPC instructor \\
+July 2015 & Kazakhstan IOI preparation camp content creator and instructor \\
+2013 -- 2014 & Coach of IOI (International Olympiad in Informatics) Russian team on Winter and Summer camps in Russia \\
+November 2014 & Harbin Institute of Technology ACM ICPC training week lecturer \\
+September 2014 & Kazan Federal University ACM ICPC teams workshop \\
+\end{tabular}
+
 \end{document}
 
