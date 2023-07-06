@@ -128,7 +128,7 @@
 }
 
 % Project command
-\newcommand{\ProjectNoLink}[2]{
+\newcommand{\ProjectNoLink}[1]{
 \runsubsection{%
 {\uppercase{#1}}
 }
