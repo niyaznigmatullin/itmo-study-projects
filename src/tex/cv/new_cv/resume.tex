@@ -1,0 +1,190 @@
+\documentclass[]{resume-openfont}
+
+\pagestyle{fancy}
+\resetHeaderAndFooter
+
+%--------------------------------------------------------------
+% Convenience command - make it easy to fill template
+
+% Create job position command. Parameters: company, position, location, when
+\newcommand{\resumeHeading}[5]{\runsubsection{\uppercase{#1}}\descript{ | #2} \descript{ | #5}\hfill\location{#3 | #4}\fakeNewLine }
+
+% Create education heading. Parameters: Name, degree, location, when
+\newcommand{\educationHeading}[4]{\runsubsection{#1}\hspace*{\fill}  \location{#3 | #4}\\
+\descript{#2}\fakeNewLine}
+
+% Create project heading. Parameters: Name, link, Tech stack
+\newcommand{\projectHeading}[3]{\Project{#1}{#2}
+\descript{#3}\\}
+
+\newcommand{\projectHeadingNoLink}[2]{\ProjectNoLink{#1}
+\descript{#2}\\}
+
+\newcommand{\projectHeadingWithDate}[4]{\Project{#1}{#2}
+\descript{#3 | #4}\\}
+
+% Parameters: courses
+\newcommand{\courseWork}[1]{\textbf{Coursework:} #1}
+
+% Parameters: courses
+\newcommand{\teacherAssistant}[1]{\textbf{Teacher Assistant (TA):} #1}
+ 
+%--------------------------------------------------------------
+\begin{document}
+
+%--------------------------------------------------------------
+%     Profile
+%--------------------------------------------------------------
+\newcommand{\yourName}{Niyaz Nigmatullin}
+% How you want it to show up on the resume
+\newcommand{\yourWebsite}{abdullaharif.tech}
+% vs how you want it to show up. If it's you can just replace "\yourWebsiteLink" with "yourWebsite"
+\newcommand{\yourWebsiteLink}{https://abdullaharif.tech}
+\newcommand{\yourEmail}{niyaz.nigmatullin@gmail.com}
+\newcommand{\yourPhone}{+357 99813836}
+\newcommand{\githubUserName}{niyaznigmatullin}
+\newcommand{\linkedInUserName}{niyaznigmatul}
+
+% An alternate profile section 
+% \alignProfileTable
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%     \ralewayBold{\href{\yourWebsiteLink}{\Large \yourName}} & 
+%     Email : \href{mailto:\yourEmail}{\yourEmail}
+%     \\
+%     \href{https://github.com/\githubUserName}{GitHub://\githubUserName} & 
+%     Mobile : \yourPhone
+%     \\
+%     \href{https://www.linkedin.com/in/\linkedInUserName}{LinkedIn://\linkedInUserName} & Website : \href{\yourWebsiteLink}{\yourWebsite}
+%     \\
+% \end{tabular*}
+
+\begin{center}
+    \Huge \scshape \latoRegular{\yourName} \\ \vspace{1pt}
+    \small \href{mailto:\yourEmail}{\underline{\yourEmail}}  $|$  \yourPhone $|$ 
+    \href{https://www.linkedin.com/in/\linkedInUserName}{\underline{linkedIn/\linkedInUserName}} $|$
+    \href{https://github.com/\githubUserName}{\underline{github/\githubUserName}} 
+    % $|$ \href{\yourWebsiteLink}{\underline{\yourWebsite}}
+\end{center}
+
+%--------------------------------------------------------------
+%     Education
+%--------------------------------------------------------------
+\section{Education}
+% Put school first and degree second if your school is reputable
+\educationHeading{M Sc, Computer Science}{ITMO University}{St. Petersburg, Russia}{Jun 2015}
+
+\educationHeading{B Sc, Computer Science}{ITMO University}{St. Petersburg, Russia}{Jun 2013}
+
+
+%\teacherAssistant{World Wide Web Information Systems Development}
+% \courseWork{Data Structures and Algorithms; Operating Systems;  Computer Security; Software Testing; Advanced Networking; Big Data Analytics}
+\sectionsep
+
+%--------------------------------------------------------------
+%     Experience
+%--------------------------------------------------------------
+\section{Work Experience}
+\resumeHeading{JetBrains}{Software engineer and researcher}{Cyprus}{since Feb 2023}{Kotlin, Java, JVM}
+\begin{bullets}
+    \item Researching symbolic execution software testing, algorithm that does a test generation for a JVM bytecode.
+    \item Implemented algorithm to explore different heap object states and generate test input using classes' public API.
+\end{bullets}
+\sectionsep
+
+\resumeHeading{Huawei}{Senior software engineer and researcher}{St. Petersburg, Russia}{2020 -- 2022}{C/C++, ARM, Linux}
+\begin{bullets}
+    \item Reasearched and developed an algorithm to compress genome data.
+    \item Made a target optimizations for ARM platform to reach target speeds, and 70\% better than GZIP compression.
+    \item Developed GZIP recompression framework, new features, code refactoring, partially-multithreaded processing.
+\end{bullets}
+\sectionsep
+
+\resumeHeading{ITMO University}{Professor}{St. Petersburg, Russia}{2015 -- 2021}{}
+\begin{bullets}
+    \item Algorithms and Data structure professor
+    \item Department chairman: curriculum designing, educational process maintenance.
+\end{bullets}
+\sectionsep
+
+\resumeHeading{VK}{Part-time software engineer}{St. Petersburg, Russia}{2015 -- 2018}{C/C++, Linux, Network, Database}
+\begin{bullets}
+    \item Created an index for a SQL-like database, using persistent data structure for multithreaded access.
+\end{bullets}
+\sectionsep
+
+%--------------------------------------------------------------
+%     Projects
+%--------------------------------------------------------------
+\section{Outside Projects}
+
+\projectHeading{ICPC Live}{https://github.com/Aksenov239/icpc-live-v2}{Java, OpenGL, Web}
+A software to generate overlay for a competitive programming competition broadcast.
+\sectionsep
+  
+\projectHeading{PolygonContestImporter}{https://github.com/ilsaf13/PolygonContestImporter}{Java, Kotlin, Multiplatform}
+A software to automatically download and convert polygon.codeforces.com competitive programming problem data into PCMS2 format.
+\sectionsep
+
+\projectHeading{Polygon Uploader}{https://github.com/niyaz.nigmatullin/polygon_uploader}{Python}
+Authomatic uploading programming contest problems from some websites to polygon.codeforces.com
+\sectionsep
+
+\projectHeading{Innopolis Open}{https://olymp.innopolis.university/en}{Head of scientific committee, Problem designing}
+A programming olympiad for high-school students
+\sectionsep
+
+\projectHeadingNoLink{Competitive Programming crash course}{Instructor, Lecturer}
+
+\small{
+    \begin{bullets}
+        \item {ETH Zurich, Switzerland: 2015, 2016}
+        \item UCLA, United States: 2014, 2015, 2016, 2017
+        \item Harbin U of Tech, China: 2014
+        \item ITESM Monterrey, Mexico: 2015
+    \end{bullets}
+}
+
+\sectionsep
+
+\projectHeadingNoLink{Competitive Programming Judge}{Problem designing}
+
+\small{
+    \begin{bullets}
+        \item ICPC Regionals: 2014 -- 2022
+        \item International Olympiad in Informatics: 2016
+        \item Asia-Pacific Olympiad in Informatics: 2017, 2018
+        \item Russian Olympiad in Informatics: 2014 -- 2021
+    \end{bullets}
+    }
+
+\sectionsep
+
+% Example using bullets and dates 
+% \projectHeadingWithDate{Hogwart\textquotesingle{}s Library Management System}{https://github.com/Aarif123456/hogwartslibrary}{PHP, JavaScript, HTML, CSS, MySQL}{Aug 2019}
+% \begin{bullets}
+    % \item A full-stack library management system, where users can manage books and holds on their accounts. Users can search the library\textquotesingle{}s catalogue, which has every book mentioned in the Harry Potter series. The system distinguishes between 4 users. For examples, librarians who can also check or return books on behalf of users.\\
+% \end{bullets}
+% \sectionsep
+  
+
+%--------------------------------------------------------------
+%     Skills
+%--------------------------------------------------------------
+\section{Skills}
+\begin{skillList}
+    \singleItem{Languages:}{C/C++, Rust, Java, Kotlin, Python}
+    \\
+    \singleItem{Background:}{Algorithms, Optimizations, Databases}
+    \\
+    \singleItem{Technology:}{Git, Docker, \LaTeX, Linux}
+\end{skillList}
+
+% A more concise alternate 
+% \begin{skillList}
+%     \doubleItem{Languages:}{Java, C++, Python, C\#, PHP, Prolog, Bash, C, Racket}%
+%     {Databases:}{SQL, MongoDB, Neo4j, DynamoDB}
+%     \\
+%     \doubleItem{Web Development:}{JavaScript, TypeScript, React, HTML/CSS}
+%     {Technology:}{Git, AWS, GCP, Azure, Docker, \LaTeX}%
+% \end{skillList}
+\end{document}
